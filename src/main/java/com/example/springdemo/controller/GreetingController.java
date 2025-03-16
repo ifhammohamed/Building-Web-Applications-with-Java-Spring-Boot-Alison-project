@@ -22,8 +22,4 @@ public class GreetingController {
     public GreetingService getGreetingService() {
         return greetingService;
     }
-
-    public void setGreetingService(GreetingService greetingService) {
-        this.greetingService = greetingService;
-    }
 }
